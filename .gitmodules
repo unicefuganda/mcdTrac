@@ -1,0 +1,27 @@
+[submodule "mcdtrac_project/rapidsms_xforms"]
+	path = mcdtrac_project/rapidsms_xforms
+	url = git://github.com/unicefuganda/rapidsms-xforms.git
+[submodule "mcdtrac_project/rapidsms_generic"]
+	path = mcdtrac_project/rapidsms_generic
+	url = git://github.com/unicefuganda/rapidsms-generic.git
+[submodule "mcdtrac_project/rapidsms"]
+	path = mcdtrac_project/rapidsms
+	url = git://github.com/unicefuganda/rapidsms.git
+[submodule "mcdtrac_project/rapidsms_uganda_common"]
+	path = mcdtrac_project/rapidsms_uganda_common
+	url = git://github.com/unicefuganda/rapidsms-uganda-common.git
+[submodule "mcdtrac_project/rapidsms_contact"]
+	path = mcdtrac_project/rapidsms_contact
+	url = git://github.com/unicefuganda/rapidsms-contact.git
+[submodule "mcdtrac_project/rapidsms_httprouter"]
+	path = mcdtrac_project/rapidsms_httprouter
+	url = git://github.com/unicefuganda/rapidsms-httprouter.git
+[submodule "mcdtrac_project/rapidsms_script"]
+	path = mcdtrac_project/rapidsms_script
+	url = git://github.com/unicefuganda/rapidsms-script.git
+[submodule "mcdtrac_project/rapidsms_polls"]
+	path = mcdtrac_project/rapidsms_polls
+	url = git://github.com/unicefuganda/rapidsms-polls.git
+[submodule "mcdtrac_project/rapidsms_mcdtrac"]
+	path = mcdtrac_project/rapidsms_mcdtrac
+	url = git://github.com/unicefuganda/rapidsms-mcdtrac.git
