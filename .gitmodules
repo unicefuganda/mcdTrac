@@ -31,3 +31,9 @@
 [submodule "mcdtrac_project/monitor_src"]
 	path = mcdtrac_project/monitor_src
 	url = git://github.com/unicefuganda/monitor_src.git
+[submodule "mcdtrac_project/django_eav"]
+	path = mcdtrac_project/django_eav
+	url = git://github.com/unicefuganda/django-eav.git
+[submodule "mcdtrac_project/rapidsms_auth"]
+	path = mcdtrac_project/rapidsms_auth
+	url = git://github.com/unicefuganda/rapidsms-auth.git

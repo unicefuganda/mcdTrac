@@ -127,7 +127,8 @@ SMS_APPS = [
 # to add it here, also, to expose it in the rapidsms ui.
 RAPIDSMS_TABS = [
 #   ('stats', 'Stats'),
-    ("rapidsms-dashboard", 'Home')
+    ("rapidsms-dashboard", 'Home'),
+    ("rapidsms_xforms", 'XForms')
 ]
 
 gettext  = lambda s:s
@@ -209,7 +210,7 @@ MIDDLEWARE_CLASSES = (
     #'django.middleware.cache.CacheMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.transaction.TransactionMiddleware',
-    'reversion.middleware.RevisionMiddleware',
+#    'reversion.middleware.RevisionMiddleware',
 )
 
 # -------------------------------------------------------------------- #
