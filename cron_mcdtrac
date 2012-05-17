@@ -1,0 +1,1 @@
+* * * * * root /var/www/env/prod/bin/python /var/www/prod/mcdtrac/mcdtrac_project/manage.py check_script_progress -e 8 -l 19
