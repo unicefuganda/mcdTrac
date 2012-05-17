@@ -25,12 +25,6 @@
 [submodule "mcdtrac_project/rapidsms_httprouter_src"]
 	path = mcdtrac_project/rapidsms_httprouter_src
 	url = git://github.com/unicefuganda/rapidsms-httprouter.git
-[submodule "mcdtrac_project/rapidsms_xforms"]
-	path = mcdtrac_project/rapidsms_xforms
-	url = git://github.com/unicefuganda/rapidsms-xforms.git
-[submodule "mcdtrac_project/rapidsms_httprouter"]
-	path = mcdtrac_project/rapidsms_httprouter
-	url = git://github.com/unicefuganda/rapidsms-httprouter.git
 [submodule "mcdtrac_project/rapidsms_unregister"]
 	path = mcdtrac_project/rapidsms_unregister
 	url = git://github.com/unicefuganda/rapidsms-unregister.git
