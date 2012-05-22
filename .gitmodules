@@ -37,3 +37,6 @@
 [submodule "mcdtrac_project/rapidsms_auth"]
 	path = mcdtrac_project/rapidsms_auth
 	url = git://github.com/unicefuganda/rapidsms-auth.git
+[submodule "mcdtrac_project/healthmodels"]
+	path = mcdtrac_project/healthmodels
+	url = git://github.com/unicefuganda/rapidsms-healthmodels.git
