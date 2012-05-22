@@ -121,7 +121,7 @@ SMS_APPS = [
     "mcdtrac",
     "script",
     "poll",
-    #"rapidsms_xforms"
+    "rapidsms_xforms"
 ]
 
 # this rapidsms-specific setting defines which views are linked by the
