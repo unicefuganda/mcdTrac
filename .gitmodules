@@ -40,3 +40,6 @@
 [submodule "mcdtrac_project/healthmodels"]
 	path = mcdtrac_project/healthmodels
 	url = git://github.com/unicefuganda/rapidsms-healthmodels.git
+[submodule "mcdtrac_project/rapidsms_logistics"]
+	path = mcdtrac_project/rapidsms_logistics
+	url = git://github.com/unicefuganda/rapidsms-logistics.git

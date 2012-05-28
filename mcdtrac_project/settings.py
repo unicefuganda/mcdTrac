@@ -23,6 +23,8 @@ sys.path.append(os.path.join(filedir, 'rapidsms_uganda_common'))
 sys.path.append(os.path.join(filedir, 'rapidsms_unregister'))
 sys.path.append(os.path.join(filedir, 'rapidsms_mcdtrac'))
 sys.path.append(os.path.join(filedir, 'monitor_src'))
+sys.path.append(os.path.join(filedir, 'rapidsms_extensions'))
+#sys.path.append(os.path.join(filedir, 'rapidsms_logistics'))
 
 # -------------------------------------------------------------------- #
 #                          MAIN CONFIGURATION                          #
@@ -74,7 +76,6 @@ INSTALLED_BACKENDS = {
 # to help you get started quickly, many django/rapidsms apps are enabled
 # by default. you may wish to remove some and/or add your own.
 INSTALLED_APPS = [
-
     "djtables",
     "mptt",
     "uni_form",
@@ -89,10 +90,11 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sites",
     "django.contrib.humanize",
+    "rapidsms",
     "script",
     "poll",
     "mcdtrac",
-
+    
     # the rapidsms contrib apps.
     "rapidsms.contrib.default",
     "eav",
@@ -104,10 +106,10 @@ INSTALLED_APPS = [
     "generic.reporting",
     "contact",
     "unregister",
-    "rapidsms",
     "healthmodels",
-
+    "rextensions",
     "monitor",
+#    "logistics",
     #leave south at the end of this list
     "south",
 
@@ -130,7 +132,8 @@ SMS_APPS = [
 RAPIDSMS_TABS = [
 #   ('stats', 'Stats'),
     ("rapidsms-dashboard", 'Home'),
-    ("rapidsms_xforms", 'XForms')
+    ("xforms", 'XForms'),
+    ("mcd-contact", "Reporters"),
 ]
 
 gettext  = lambda s:s
