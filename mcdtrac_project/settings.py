@@ -120,10 +120,10 @@ SIMPLE_AUTOCOMPLETE_MODELS = ('rapidsms.models.Connection')
 
 SMS_APPS = [
     "monitor",
-    "mcdtrac",
     "script",
     "poll",
-    "rapidsms_xforms"
+    "rapidsms_xforms",
+    "mcdtrac",
 ]
 
 # this rapidsms-specific setting defines which views are linked by the
